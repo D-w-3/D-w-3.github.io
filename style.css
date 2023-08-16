@@ -1,6 +1,7 @@
 * {
     font-family: fantasy;
-    color: white
+    color: white;
+    letter-spacing: 2px;
 }
 
 body {
@@ -16,6 +17,5 @@ a:hover {
 p {
     font-family: Helvetica;
     font-size: 18px;
-    font-weight: bold;
     text-align: left;
 }
