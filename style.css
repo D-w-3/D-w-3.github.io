@@ -1,7 +1,8 @@
 * {
     font-family: fantasy;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight:100;
 }
 
 body {
