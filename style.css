@@ -4,7 +4,7 @@
     letter-spacing: 1px;
     font-weight:100;
     font-size: 30px;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 body {
@@ -30,15 +30,15 @@ p {
 
 #title {
     position: static;
+
 }
 
-.nav {
+nav {
     box-sizing: border-box;
-  background-color: #3587A4;
-  overflow: auto;
-  padding: 18px 50px;
-  position: relative;
-  top: 0;
-  width: 100%;
-  z-index: 999;
+    background-color: #3587A4;
+    overflow: auto;
+    padding: 18px 50px;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 } 
