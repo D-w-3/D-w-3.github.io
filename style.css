@@ -3,7 +3,7 @@
     color: white;
     letter-spacing: 1px;
     font-weight:100;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ body {
 
 a:hover {
     color: rgb(106, 119, 164);
-  }
+ }
 
 p {
     font-family: Helvetica;
@@ -23,9 +23,8 @@ p {
     text-align: left;
 }
 
-#title {
+#hk_title {
     position: static;
-
 }
 
 nav {
@@ -39,5 +38,5 @@ nav {
 } 
 
 #silksong {
-    background-color: red
+    background-color: rgb(203, 70, 70)
 }
