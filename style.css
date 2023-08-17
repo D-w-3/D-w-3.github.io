@@ -4,6 +4,7 @@
     letter-spacing: 1px;
     font-weight:100;
     font-size: 30px;
+    padding-left: 20px;
 }
 
 body {
@@ -41,7 +42,3 @@ p {
   width: 100%;
   z-index: 999;
 } 
-
-h2 {
-    font-size: 26px;
-}
