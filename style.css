@@ -28,7 +28,6 @@ p {
 }
 
 nav {
-    box-sizing: border-box;
     background-color: #000000;
     overflow: auto;
     padding: 18px 50px;
@@ -36,6 +35,14 @@ nav {
     width: 100%;
     z-index: 999;
 } 
+
+ul #navv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f3f3f3;
+  }
 
 #silksong {
     background-color: rgb(203, 70, 70)
