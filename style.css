@@ -42,6 +42,10 @@ nav {
     padding: 0;
     width: 200px;
     background-color: #f3f3f3;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
   }
 
 #silksong {
@@ -65,5 +69,23 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f3f3f3;
 }
+
+
+  #navv:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #navv:hover {
+    padding-right: 25px;
+  }
+  
+  #navv:hover:after {
+    opacity: 1;
+    right: 0;
+  }
