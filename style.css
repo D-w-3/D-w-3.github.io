@@ -69,6 +69,5 @@ ul {
 }
 
 #top {
-    background-image: url(c:\Users\27WilliamsDanette\Downloads\Atmos_snippet.gif);
-    background-color: white;
+    background-image: url("c:\Users\27WilliamsDanette\Downloads\Atmos_snippet.gif");
 }
