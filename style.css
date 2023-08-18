@@ -28,7 +28,6 @@ p {
 }
 
 nav {
-    background-color: #ffffff;
     overflow: auto;
     padding: 18px 50px;
     top: 0;
@@ -41,12 +40,9 @@ nav {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f3f3f3;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+    color: white;
+    border: 2px solid rgb(106, 119, 164);
+}
 
 #silksong {
     background-color: rgb(203, 70, 70)
@@ -70,22 +66,3 @@ ul {
     padding: 0;
     width: 200px;
 }
-
-
-  #navv:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  #navv:hover {
-    padding-right: 25px;
-  }
-  
-  #navv:hover:after {
-    opacity: 1;
-    right: 0;
-  }
