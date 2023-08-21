@@ -24,9 +24,12 @@ function display(results) {
     const answerHeader = document.createdElement('h1');
     answerHeader.textContent = "Your results are: ";
     quizSection.appendChild(answerHeader);
-    results.forEach((answer) => {
-        const result = document.createElement('p');
-        result.textContent = answer;
-        quizSection.appendChild(result);
-    });
+    const result = document.createElement('p');
+    if(answers.question1 === "yes") {
+        result.textContent = "cool"; 
+    } else if(answers.question1 === "no") {
+        result.textContent = "leave;"
+    }
+    result.textContent = answer;
+    quizSection.appendChild(result);
 }
