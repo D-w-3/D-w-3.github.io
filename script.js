@@ -20,7 +20,7 @@ function display(answers) {
     if(answers.question1 === "yes") {
         result.textContent = "cool"; 
     } else if(answers.question1 === "no") {
-        result.textContent = "leave;"
+        result.textContent = "leave";
     }
     quizSection.appendChild(result);
 }
