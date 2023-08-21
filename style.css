@@ -4,17 +4,16 @@
     letter-spacing: 1px;
     font-weight:100;
     font-size: 30px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-/*Try diff font & font size*/
 }
 
 body {
     background: linear-gradient(-45deg, #0d1c3f, #000000);
     margin: 0;
     padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
 
 a:hover {
