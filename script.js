@@ -4,9 +4,8 @@ form.addEventListener("submit", submitted);
 function submitted(event) {
     event.preventDefault();
     const answers = {
-        question1: document.querySelector('input[name="q1"]:checked')
+        question1: document.querySelector('input[name="q1"]:checked').value
     }
-    const results = calculate(answers);
     display(results);
 }
 
