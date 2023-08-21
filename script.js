@@ -6,11 +6,11 @@ function submitted(event) {
     const answers = {
         question1: document.querySelector('input[name="q1"]:checked').value
     }
-    display(results);
+    display(answers);
 }
 
 
-function display(results) {
+function display(answers) {
     const quizSection = document.getElementById("the-form");
     quizSection.inner = "";
     const answerHeader = document.createdElement('h1');
