@@ -10,13 +10,6 @@ function submitted(event) {
     display(results);
 }
 
-function calculate(answers) {
-    if(answers.question1 === "yes") {
-        return "cool";
-    } else if(answers.question1 === "no") {
-        return "leave";
-    }
-}
 
 function display(results) {
     const quizSection = document.getElementById("the-form");
@@ -30,6 +23,5 @@ function display(results) {
     } else if(answers.question1 === "no") {
         result.textContent = "leave;"
     }
-    result.textContent = answer;
     quizSection.appendChild(result);
 }
