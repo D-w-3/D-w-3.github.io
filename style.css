@@ -45,7 +45,8 @@ nav {
 }
 
 #silksong {
-    background-color: rgb(203, 70, 70)
+    background-color: rgb(203, 70, 70);
+    margin:auto;
 }
 
 li a {
