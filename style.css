@@ -3,8 +3,12 @@
     color: white;
     letter-spacing: 1px;
     font-weight:100;
-    font-size: 20px;
-
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+/*Try diff font & font size*/
 }
 
 body {
@@ -19,12 +23,8 @@ a:hover {
 
 p {
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-}
-
-#hk_title {
-    position: static;
 }
 
 nav {
@@ -70,4 +70,5 @@ ul {
 
 #top {
     background-image: url("c:\Users\27WilliamsDanette\Downloads\Atmos_snippet.gif");
+    position: static;
 }
