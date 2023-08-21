@@ -3,17 +3,10 @@
     color: white;
     letter-spacing: 1px;
     font-weight:100;
-    font-size: 21px;
 }
 
 body {
     background: linear-gradient(-45deg, #0d1c3f, #000000);
-    margin: 0;
-    padding: 0;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
 }
 
 a:hover {
@@ -35,19 +28,6 @@ nav {
     color: white;
 } 
 
-#navv {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    color: white;
-    border: 2px solid rgb(106, 119, 164);
-}
-
-#silksong {
-    background-color: rgb(203, 70, 70);
-    margin:auto;
-}
 
 li a {
     display: block;
@@ -68,16 +48,36 @@ ul {
     width: 200px;
 }
 
-#top {
-    background-image: url("c:\Users\27WilliamsDanette\Downloads\Atmos_snippet.gif");
-    position: static;
-}
-
-
 h1 {
     font-size: 26px;
 }
 
 h2 {
     font-size: 23px;
+}
+
+#navv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    color: white;
+    border: 2px solid rgb(106, 119, 164);
+}
+
+#silksong {
+    background-color: rgb(203, 70, 70);
+    margin:auto;
+}
+
+#top {
+    background-image: url("c:\Users\27WilliamsDanette\Downloads\Atmos_snippet.gif");
+    position: static;
+}
+
+#hk-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
