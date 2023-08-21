@@ -13,7 +13,7 @@ function submitted(event) {
 function display(answers) {
     const quizSection = document.getElementById("the-form");
     quizSection.innerHTML = "";
-    const answerHeader = document.createdElement('h1');
+    const answerHeader = document.createElement('h1');
     answerHeader.textContent = "Your results are: ";
     quizSection.appendChild(answerHeader);
     const result = document.createElement('p');
