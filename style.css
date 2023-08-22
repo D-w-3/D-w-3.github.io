@@ -56,10 +56,10 @@ h2 {
     font-size: 23px;
 }
 
+
+
 #navv {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     width: 200px;
     color: white;
     border: 2px solid rgb(106, 119, 164);
@@ -68,10 +68,6 @@ h2 {
 #silksong {
     background-color: rgb(203, 70, 70);
     margin:auto;
-}
-
-#top {
-    background-image: url("c:\Users\27WilliamsDanette\Downloads\Atmos_snippet.gif");
 }
 
 #hk-section {
@@ -92,4 +88,21 @@ form {
 
 #gm {
     padding-bottom: 50px;
+}
+
+#hk_title {
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+}
+
+#hk_gif {
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    padding: 0px 50px;
+}
+
+#danette {
+    padding-top: 300px;
 }
