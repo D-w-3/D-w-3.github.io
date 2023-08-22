@@ -6,7 +6,9 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #0d1c3f, #000000);
+    background: linear-gradient(#000000, #081127);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a:hover {
@@ -66,8 +68,8 @@ h2 {
 }
 
 #silksong {
-    background-color: rgb(203, 70, 70);
-    margin:auto;
+    background: linear-gradient( rgb(234, 83, 83), rgb(45, 15, 15));
+    margin: 0px;
 }
 
 #hk-section {
@@ -94,15 +96,28 @@ form {
     position: absolute;
     z-index: 2;
     left: 50px;
+    padding: 0px 50px;
+    margin-top: 7%;
+    padding-left: 18%;
+
 }
 
 #hk_gif {
     position: absolute;
     z-index: 1;
     left: 50px;
-    padding: 0px 50px;
+    background-size: cover;
+    padding-left: 2%;
 }
 
 #danette {
-    padding-top: 300px;
+    padding-top: 450px;
+}
+
+#tc {
+    border-radius: 50%
+}
+
+#the-knight {
+    position: fixed;
 }
