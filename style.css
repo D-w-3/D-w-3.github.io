@@ -124,19 +124,7 @@ form {
     position: fixed;
 }
 
-#gt {
-    padding: 2% 20% 0% 9%
-}
-
-#gm {
-    padding: 2% 20% 0% 9%
-}
-
-#lb {
-    padding: 2% 20% 0% 9%
-}
-
-#hd {
+#gt, #gm, #lb, #hd {
     padding: 2% 20% 0% 9%
 }
 
