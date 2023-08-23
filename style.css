@@ -1,5 +1,5 @@
 * {
-    font-family:initial;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
     letter-spacing: 1px;
     font-weight:100;
@@ -16,8 +16,8 @@ a:hover {
  }
 
 p {
-    font-family: Helvetica;
-    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -55,7 +55,9 @@ h1 {
 }
 
 h2 {
-    font-size: 23px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 
@@ -123,17 +125,28 @@ form {
 }
 
 #gt {
-    padding: 2% 20% 0% 4%
+    padding: 2% 20% 0% 9%
 }
 
 #gm {
-    padding: 2% 20% 0% 4%
+    padding: 2% 20% 0% 9%
 }
 
 #lb {
-    padding: 2% 20% 0% 4%
+    padding: 2% 20% 0% 9%
 }
 
 #hd {
-    padding: 2% 20% 0% 4%
+    padding: 2% 20% 0% 9%
+}
+
+.indent {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.dlc-text {
+    padding-left: 20%;
+    padding-right: 30%;
+    text-align: center;
 }
