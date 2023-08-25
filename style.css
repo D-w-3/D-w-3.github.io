@@ -72,6 +72,8 @@ h2 {
 #silksong {
     background: linear-gradient( rgb(234, 83, 83), rgb(45, 15, 15));
     margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #hk-section {
@@ -90,7 +92,6 @@ form {
     padding-left: 110px;
     padding-top: 110px;
     padding-right: 100px;
-    float:left;
 }
 
 #gm {
